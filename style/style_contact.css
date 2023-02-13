@@ -1,0 +1,28 @@
+.contact{
+    padding: .5rem;
+    text-align: center;
+    font-size:  2rem;
+    border-style: double; 
+    border-width: 3px;
+    
+}
+
+.plantilla div{
+    width: 33%;
+    display: inline-block;
+    text-align: center;
+}
+
+h3{
+    font-size: 1.5rem;
+    padding: .5rem;    
+}
+
+.logo_principal{
+    width: 200px;
+    
+}
+.hockey3{
+    width: 300px;
+    padding: 1.5rem;
+}
