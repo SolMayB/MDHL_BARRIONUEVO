@@ -1,11 +1,11 @@
 
-
 .contact{
     padding: .5rem;
     text-align: center;
     font-size:  2rem;
     border-style: double; 
     border-width: 8px;
+    margin-top: 2rem;
 }
 section{
     display: flex;
@@ -13,7 +13,6 @@ section{
 }
 .plantilla div{
     width: 33%;
-    
     text-align: center;
 }
 

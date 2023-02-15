@@ -1,10 +1,5 @@
 
 
-main{
-    min-height: 80vh;
-    display: flex;
-    flex-flow: column wrap;
-}
 table{
     
     table-layout: auto;
@@ -17,6 +12,7 @@ table{
 .fall{
     font-family: 'Rock Salt', cursive;
     font-size: 1rem;
+    margin-top: 1.2rem;
     
 }
 section {
