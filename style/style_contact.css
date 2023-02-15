@@ -1,21 +1,19 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
+
 
 .contact{
     padding: .5rem;
     text-align: center;
     font-size:  2rem;
     border-style: double; 
-    border-width: 3px;
-    
+    border-width: 8px;
 }
-
+section{
+    display: flex;
+    flex-direction: row;
+}
 .plantilla div{
     width: 33%;
-    display: inline-block;
+    
     text-align: center;
 }
 

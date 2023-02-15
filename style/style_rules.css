@@ -1,12 +1,5 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-body{
-    background-image: url(../files_task3/ice-background-with-marks-from-skating-hockey-blue-texture-rink-surface-with-scratches_130111-1938.avif);
-    background-size: cover;
-}
+
+
 section{
     display: flex;
     flex-direction: column;
