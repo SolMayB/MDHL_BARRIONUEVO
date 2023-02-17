@@ -230,16 +230,7 @@ th, td{
 
 }
 .maps_none{
-    background-color: #9ad5fc94;
-    border-radius: 10px;
-    padding: 0.5rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    gap: 0.5rem;
-    font-family: cursive;
-    font-size: 1rem;  
+    display: none;
 }
 address{
     display: contents;
@@ -478,12 +469,19 @@ dt{
     li{
         margin-left: 0rem;
     }
-    
+    .fechas {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        font-size: 1rem;
+        font-family: cursive;
+    }
     .maps{
         display: none;
     }
     th, td{
         padding: 0rem;
+
     }
     .maps_none{
         display: flex;
@@ -528,5 +526,18 @@ dt{
     fieldset {
         border-style: revert;
     }
+    .conteiner_info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+        font-size: 0.7rem;
+    }
+    .fall {
+        display: flex;
+        font-size: .5rem;
+        margin-top: 1.2rem;
+    }
+    
 
 }
