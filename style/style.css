@@ -4,12 +4,12 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url(../files_task3/ice-background-with-marks-from-skating-hockey-blue-texture-rink-surface-with-scratches_130111-1938.avif);
+    background-image: url(../img/ice-background-with-marks-from-skating-hockey-blue-texture-rink-surface-with-scratches_130111-1938.avif);
     background-size: cover;
 }
 main{
     width: 100%;
-    height: 80%;
+    height: 70%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -27,16 +27,15 @@ main{
 
 header{
     width: 100vw;
-    height: 25vw;
-    
+    height: 50vh;
     
 }
 
 #banner{
     width: 100%;
-    height: 400px;
-    object-fit: inherit;
-    object-position:50% 50%;
+    height: 40vh;
+    object-fit: cover;
+    object-position: 80% 20%;
     
     
 }
@@ -47,11 +46,12 @@ header{
     justify-content: flex-end;
     flex-wrap: wrap;
     gap: 1rem;
+    margin-right: 2rem;
     
 }
 .conteiner a{
     color: aliceblue;
-    background-color:rgba(57, 57, 255, 0.925);
+    background-color:rgba(40, 40, 179, 0.685);
     width: 8rem;
     height: 2.5rem;
     text-align: center;
@@ -69,10 +69,10 @@ header{
 
 a:hover{
     color: white;
-    background-color: rgba(11, 163, 23, 0.904);
+    background-color: rgba(42, 117, 49, 0.904);
 }
 a[href="#"]{
-    background-color:  rgba(11, 163, 23, 0.904);
+    background-color:  rgba(9, 128, 19, 0.904);
 }
 
 
@@ -104,7 +104,7 @@ a[href="#"]{
 footer{
     width: 100%;
     height: 10vh;
-    /*display: block;*/
+   
 }
 
 .logo_footer{
@@ -112,6 +112,421 @@ footer{
     text-align: center;
     width: 80px;
 }
+/*---------------------------------------/about/------------------------------------------------------------*/
+
+.about{
+    padding: .5rem;
+    text-align: center;
+    font-size:  2.5rem;
+    border-style: double; 
+    border-width: 8px;
+    margin-top: 2rem;
+}
+
+.info_about{
+  
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: cursive;
+}
+.logo_principal{
+    width: 200px;
+}
+.Hockey2{
+    width: 300px;
+    padding: 1.5rem;
+}
+.p_about{
+    width: 50%;
+    margin-left: 25%;
+    padding: 1rem;
+}
+
+/*--------------------------------------/contact/------------------------------------------------------------*/
 
 
 
+.contact{
+    padding: .5rem;
+    text-align: center;
+    font-size:  2rem;
+    border-style: double; 
+    border-width: 8px;
+    margin-top: 2rem;
+}
+.plantilla{
+    display: flex;
+    flex-direction: row;
+}
+.plantilla div{
+    width: 33%;
+    text-align: center;
+}
+
+h3{
+    font-size: 1.5rem;
+    padding: .5rem;    
+}
+
+.logo_principal{
+    width: 200px;
+    
+}
+.hockey3{
+    width: 300px;
+    padding: 1.5rem;
+}
+
+/*----------------------------------------/info/------------------------------------------------------------*/
+
+table{
+    
+    table-layout: auto;
+    border-collapse: separate;
+    border-spacing: 2px;
+    text-indent: initial;
+    border-spacing: 3px;
+  
+}
+.fall{
+    font-family: 'Rock Salt', cursive;
+    font-size: 1rem;
+    margin-top: 1.2rem;
+    
+}
+.conteiner_info {
+    
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    gap: .3rem;
+    padding: .5rem;
+    margin-top: 2rem;
+}
+
+dt{
+    font-weight: bold;
+    font-size: 1.5rem;
+    
+}
+th, td{
+    padding: .5rem;
+    border: rgba(21, 20, 26, 0.356) 2px solid;
+
+
+}
+.conteiner_info {
+    background-color: #9ad5fc94;
+    border-radius: 10px;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0.5rem;
+    font-family: cursive;
+    font-size: 1rem;
+
+}
+.maps_none{
+    background-color: #9ad5fc94;
+    border-radius: 10px;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0.5rem;
+    font-family: cursive;
+    font-size: 1rem;  
+}
+address{
+    display: contents;
+    
+}
+
+/*-----------------------------------------/rules/-----------------------------------------------------------*/
+
+
+.sec_rules{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 4rem;
+    padding: 1.5rem;
+    font-family: cursive;
+    background-color: rgba(151, 228, 228, 0.425);
+}
+li{
+    margin-left: 3rem;
+    font-size: 1.2rem;
+}
+dl{
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 1rem;
+}
+dt{
+    font-weight: bold;
+}
+.title_2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 3rem;
+    font-family: 'Rock Salt', cursive;
+    margin-bottom: 1rem;
+}
+
+/*---------------------------------------------------/form/--------------------------------------------------*/
+
+
+.conteiner2{
+    align-items: center;
+    text-align: center;
+    padding: 3rem;
+    font-size: 1.5rem;
+    font-family: 'Kalam', cursive;
+    font-weight: bold;
+  }
+  fieldset{
+    border-style: none;
+  }
+  .sec_form{
+    background-color: rgba(151, 228, 228, 0.425);
+    
+  }
+  .input-container {
+      
+      position: relative;
+      margin-bottom: 1rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      box-sizing: border-box;
+      
+    }
+    .input-label {
+      top: 1.375rem;
+      left: 0.5rem;
+      padding: .7rem;
+      margin-left: 1rem;
+      transition: all 0.25s;
+    }
+    .input {
+      margin: .5rem;
+      border-bottom: 1px solid;
+      padding: 1rem;
+      height: 2rem;
+      width: 35%;
+    }
+    .input_zip{
+      border-bottom: 1px solid;
+      padding: 1rem;
+      height: 2rem;
+      width: 10%;
+    }
+    .input_Birt{
+      border-bottom: 1px solid;
+      padding: 1rem;
+      height: 2rem;
+      width: 15%;
+    }
+    .input::placeholder {
+      visibility: visible;
+      color: black;
+    }
+  
+    .input:focus {
+      outline: none;
+    }
+  
+  .input_school{
+    display: flex;
+    width: 100%;
+    margin: 1rem;
+    align-content: space-between;
+    flex-direction: row;
+    margin-left: 3rem;
+    justify-content: center;
+    
+  }
+  
+    .botton{
+      
+      background-color: rgba(74, 117, 117, 0.541);
+      border-radius: 7px;
+      width: 100%;
+      
+      margin-top: 1rem;
+      max-width: 20rem;
+      padding: .5rem;
+      box-sizing: border-box;
+      color:  #fff;
+      font-size: 22px;
+      align-self: center;
+      text-align: center;
+    }
+    legend{
+      font-size: 2rem;
+  
+    }
+  
+    input[type=checkbox] {
+      transform: scale(1.5);
+    }
+    input[type=radio] {
+      transform: scale(1.5);
+    }
+
+@media screen and (max-width:880px){
+    #banner{
+        height: 30vh;
+        margin-top: 7rem;  
+    }
+    .conteiner{
+        height: 1vh;
+        justify-content: center;
+    }    
+    main {
+        width: 100%;
+        height: 90%;
+        display: flex;
+        
+    }
+    .logo_footer{
+        display: flex;
+        align-items: center;
+        width: 80px;
+    }
+    .sec_rules {
+        
+        align-items: center;
+        margin-left: 0rem;
+    }
+    .maps{
+        display: flex;
+    }
+    .maps_none{
+        display: none;
+    }
+    legend {
+        font-size: 1.5rem;
+    }
+    .input_school {
+        display: flex;
+        width: 100%;
+        margin: .2rem;
+        margin-left: 0rem;
+        justify-content: center;
+    }
+    
+} 
+
+@media screen and (max-width:448px){
+    #banner{
+
+        height: 20vh;
+        margin-top: 9rem;  
+    }
+    .conteiner{
+        height: 3vh;
+        justify-content: center;
+        margin-right: 0rem;
+    }
+     .logo_footer{
+        display: flex;
+        margin-left: 35%;
+        
+    }
+    .logo_principal {
+        width: 100px;
+    }
+    .p_about {
+        width:100%;
+        text-align: center;
+        padding: 0rem;
+        margin-left: 0;
+    }
+    .plantilla{
+        flex-direction: column;
+        align-items: center;
+    }
+    .hockey3 {
+        width: 300px;
+        padding: 1.5rem;
+    }
+    .plantilla div{
+        width: 100%;
+        text-align: center;
+    }
+    .sec_rules {
+        
+        align-items: center;
+        margin-left: 0rem;
+    }
+    h3{
+        font-size: 1.2rem;
+    }
+    
+    h2{
+        font-size: 1rem;
+    }
+    li{
+        margin-left: 0rem;
+    }
+    
+    .maps{
+        display: none;
+    }
+    th, td{
+        padding: 0rem;
+    }
+    .maps_none{
+        display: flex;
+    }
+
+
+    .conteiner2{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+        padding: .5rem;
+        font-size: 1rem;
+        margin-top: 1rem;
+        
+      }
+      .input_school {
+        display: flex;
+        width: 50%;
+        margin: .2rem;
+        margin-left: 0rem;
+        justify-content: flex-start;
+    }
+
+    .input-label {
+        top: 1rem;
+        left: 0rem;
+        padding: 0.2rem;
+        margin-left: .5rem;
+        transition: all 0.25s;
+    }
+    .input {
+        margin: 0.5rem;
+        border-bottom: 1px solid;
+        padding: 1rem;
+        height: 1rem;
+        width: 35%;
+    }
+    legend {
+        font-size: 1rem;
+    }
+    fieldset {
+        border-style: revert;
+    }
+
+}
